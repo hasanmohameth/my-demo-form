@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 
 function Navigation() {
-      const { state, dispatch } = useFormContext();
+      const { state } = useFormContext();
 
     return (
         <div className='flex justify-between   m-2 h-15 w-2/5 mx-auto rounded-2xl   bg-background text-foreground text-2xl ' >
