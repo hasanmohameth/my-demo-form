@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0F172A;
+  --nav: #1E293B;
+  --foreground: #ededed;
+
+  --myblue-300: #93c5fd;
+  --myblue-500: #3b82f6;
+  --myblue-700: #1d4ed8;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-nav: var(--nav);
+  --color-foreground: var(--foreground);
+
+  --color-myblue-300: var(--myblue-300);
+  --color-myblue-500: var(--myblue-500);
+  --color-myblue-700: var(--myblue-700);
+}
